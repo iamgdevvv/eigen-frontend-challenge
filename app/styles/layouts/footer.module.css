@@ -1,0 +1,14 @@
+@reference '../root.css';
+
+.footer {
+	@apply border-t border-slate-200 bg-slate-50;
+}
+
+.footerWrapper {
+	@apply container py-8;
+	@apply flex items-center justify-center;
+}
+
+.footerText {
+	@apply text-center text-slate-500;
+}

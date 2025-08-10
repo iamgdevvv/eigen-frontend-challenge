@@ -1,0 +1,93 @@
+@reference '../root.css';
+
+.articleHeader {
+	@apply mb-8;
+}
+
+.articleTitle {
+	@apply font-serif text-5xl font-normal leading-tight;
+	@apply mb-6;
+}
+
+.articleSubtitle {
+	@apply text-2xl leading-8 text-slate-600;
+	@apply mb-8;
+}
+
+.authorInfoSection {
+	@apply flex items-center justify-between;
+	@apply mb-8;
+}
+
+.authorDetails {
+	@apply flex items-center gap-3;
+}
+
+.authorNameAndFollow {
+	@apply flex items-center gap-2;
+}
+
+.authorName {
+	@apply text-base font-medium;
+}
+
+.publishDetails {
+	@apply flex items-center gap-2;
+}
+
+.publishDate,
+.readTime,
+.separator {
+	@apply text-sm text-slate-600;
+}
+
+.actionButtons {
+	@apply flex items-center gap-4;
+}
+
+.iconButton {
+	@apply text-slate-600;
+}
+
+.divider {
+	@apply border-t border-slate-300;
+	@apply my-8;
+}
+
+.articleContent {
+	@apply mb-12;
+
+	.coverImage {
+		@apply relative overflow-hidden;
+		@apply mb-8 aspect-[5/3] w-full;
+		@apply rounded-sm;
+
+		img {
+			@apply size-full;
+			@apply object-cover;
+			@apply bg-slate-50;
+		}
+	}
+
+	.bodyText {
+		@apply font-serif text-xl leading-8;
+	}
+
+	.bodyText p {
+		@apply mb-6;
+	}
+
+	.sectionTitle {
+		@apply mb-6 mt-12 font-serif text-4xl leading-10;
+	}
+}
+
+.tagsSection {
+	@apply mb-8;
+}
+
+.articleTag {
+	@apply m-1 px-4 py-1;
+	@apply text-sm;
+	@apply cursor-pointer rounded-full border-none bg-slate-50;
+}

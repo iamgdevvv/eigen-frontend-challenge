@@ -1,0 +1,23 @@
+@reference '../root.css';
+
+.resultComponent {
+	@apply p-8;
+	@apply text-center;
+}
+
+.title {
+	@apply text-6xl font-bold;
+	@apply mb-4;
+}
+
+.subtitle {
+	@apply text-lg text-slate-600;
+	@apply mb-8;
+}
+
+.backHomeButton {
+	@apply bg-sky-600 border border-sky-600;
+	@apply text-white text-base;
+	@apply px-6 py-3;
+	@apply rounded-md;
+}

@@ -1,0 +1,18 @@
+@reference '../root.css';
+
+.row {
+	@apply flex flex-wrap;
+}
+
+.mainCol {
+	@apply w-full lg:w-2/3;
+}
+
+.articlesContainer {
+	@apply flex flex-col gap-8;
+}
+
+.sidebarCol {
+	@apply sticky top-20;
+	@apply w-full lg:w-1/3;
+}

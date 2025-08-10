@@ -2,6 +2,7 @@
 
 .sidebarContainer {
 	@apply flex flex-col gap-6;
+	@apply mt-10 md:mt-0;
 }
 
 .card {
